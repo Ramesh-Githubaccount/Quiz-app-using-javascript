@@ -1,0 +1,61 @@
+
+
+
+body{
+    background-color: #91b6ce;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inner-div{
+    background-color: white;
+    padding: 10px 200px;
+    border-radius: 4px;
+    box-shadow: 0 8px 8px rgba(0,0,0,0.4);
+}
+.inner-div li{
+    font-size: 20px;
+    margin: 5px 5px;
+    list-style: none;
+}
+input{
+    cursor: pointer;
+}
+#submit{
+    font-size: 20px;
+    color: white;
+    background-color: #78a9ca;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #1a91e0;
+}
+#showscore{
+    color: #2d3436;
+    background-color: #dfe6e9;
+    margin: 10px;
+    padding: 30px 200px;
+    box-shadow: 0 8px 8px -0.7px rgba(0,0,0,0.4);
+}
+.scorearea{
+    display: none;
+}
+.btn{
+    background-color: #00b896;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+.btn:hover{
+    background-color: #23e9c1;
+}
